@@ -1,0 +1,22 @@
+{
+  "name": "jsfullstack",
+  "version": "1.0.0",
+  "description": "curso javascript fullstack 2019",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "express",
+    "2019"
+  ],
+  "author": "adrianlrx",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
