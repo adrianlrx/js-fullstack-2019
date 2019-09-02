@@ -3,6 +3,7 @@ const morgan = require('morgan');
 
 // init
 const app = express();
+require('./database');
 
 //settings
 app.set('port', 4000);
