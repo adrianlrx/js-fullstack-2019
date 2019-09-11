@@ -1,3 +1,5 @@
+require('dotenv').config(); // para leer .env en desarrollo
+
 const express = require('express');
 const morgan = require('morgan');
 
