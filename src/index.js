@@ -16,6 +16,7 @@ app.set('appName', 'Curso JS FullStack');
 app.use(express.json());
 app.use(morgan('dev'));
 app.use('/api/tareas', require('./routes/tareas.routes'));
+app.use('/api/users', require('./routes/user.routes'));
 
 // routing
 // app.get('/', (req, res)=>{
@@ -26,5 +27,4 @@ app.use('/api/tareas', require('./routes/tareas.routes'));
 // server
 app.listen(app.get('port'),()=>{
     console.log(`Server on port:${app.get('port')}`);
-    
 });
