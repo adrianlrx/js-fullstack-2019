@@ -1,0 +1,6 @@
+PUT http://localhost:4000/api/tareas/5d7885454cdc4e1f28d0db75
+content-type: application/json
+{
+    "title": "Estudiar mucho",
+    "description": "Calcular todo"
+}
